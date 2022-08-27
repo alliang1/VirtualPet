@@ -59,12 +59,19 @@ void draw(){
   
   translate(279,355);
   rotate(-PI/6);
-  rect(0,0,40,25);
+  rect(0,0,39,24);
   noStroke();
-  rect(0,1,45,20);
+  rect(0,1,44,20);
   stroke(0);
   rotate(PI/6);
   translate(-279,-355);
+  
+  stroke(255);
+  strokeWeight(3);
+  point(323,353);
+  point(318,334);
+  strokeWeight(1);
+  stroke(0);
   
   
   
