@@ -4,7 +4,7 @@ void setup(){
 }
 
 void draw(){
-  println(mouseX,mouseY);
+  
   fill(255);
 
 //tail
